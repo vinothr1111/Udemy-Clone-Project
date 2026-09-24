@@ -62,7 +62,7 @@ body {
 .navbar__s4{
     display: none;
 }
-<--/My Learning Popup-->
+ --/My Learning Popup--
 
 .mylearning{
 position: relative;
@@ -214,7 +214,8 @@ text-align: center;
 @media screen and (max-width:800px) {
     body{
         font-size: 10px;
-    }
+    }}
+
     @media screen and (max-width:600px) {
     .course-card{
             flex-basis: 40%;
@@ -231,8 +232,15 @@ text-align: center;
 }
 .sale-image2{
     position: absolute;
-    top: 15%;
+    top: 16%;
     width: 150px;
-    height: 100px;
+    height: 90px;
 }  
-}    
+.popular{
+    width: 100%;
+}
+.recommended{
+    width: 100%;
+}
+}
+    
